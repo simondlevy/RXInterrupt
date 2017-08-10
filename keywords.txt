@@ -1,0 +1,2 @@
+initChannels	KEYWORD2
+updateChannels	KEYWORD2

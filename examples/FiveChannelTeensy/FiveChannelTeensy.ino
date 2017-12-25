@@ -1,6 +1,6 @@
 /*
 
-FiveChannelReadout : demo RXInterrupt with five-channel receiver.
+FiveChannelTeensy : demo RXInterrupt with five-channel receiver on Teensy 3.2.
 
 Copyright (C) Simon D. Levy 2015
 

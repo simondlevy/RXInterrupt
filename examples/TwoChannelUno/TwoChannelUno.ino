@@ -2,7 +2,7 @@
 
 FiveChannelReadout : demo RXInterrupt with five-channel receiver.
 
-Copyright (C) Simon D. Levy 2015
+Copyright (C) Simon D. Levy, Phil Gau 2017
 
 This file is part of RXInterrupt
 

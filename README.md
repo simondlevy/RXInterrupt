@@ -1,5 +1,5 @@
 # ArduinoRXInterrupt
 
-Interrupt-driven PWM RC receiver handling for Arduino.  Handles up to eight channels. I have tested it on the Arduino Due with FrSky VD5M and D8R-XP receivers and on the Teensy 3.1 with the VD5M.
+Interrupt-driven PWM RC receiver handling for Arduino.  Handles up to eight channels. I have tested it with the FrSky VD5M receiver on Arduino Uno and Due, Teensy 3.2 and LadybugSTM32L432.
 
 To use, clone this folder to your Arduino/libraries folder.

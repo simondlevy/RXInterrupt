@@ -1,7 +1,7 @@
 /*
 RXInterrupt.cpp Interrupt-driven RC receiver handling for Arduino
 
-Copyright (C) Simon D. Levy 2015
+Copyright (C) Simon D. Levy, Phil Glau 2017
 
 This file is part of RXInterrupt
 

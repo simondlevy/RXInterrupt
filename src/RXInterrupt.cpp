@@ -98,7 +98,11 @@ static void initChannel(void (*isrFun)(), int * pins, int chan, int nchans)
     nPins[chan] = pin;
 
     pinMode(pin, INPUT); 
-    attachInterrupt(pin, isrFun, CHANGE);
+    // For Due and Teensy, using just the raw pin number is okay
+    // but for most other Arduino microcontrollers, wrapping it
+    // in digitalPinToInterrupt will translate the pin to the 
+    // external interrupt vector.
+    attachInterrupt(digitalPinToInterrupt(pin), isrFun, CHANGE);
 }
 
 static void updateChannel(int off)

@@ -1,4 +1,4 @@
-# ArduinoRXInterrupt
+# RXInterrupt
 
 Interrupt-driven PWM RC receiver handling for Arduino.  Handles up to eight
 channels. I have tested it with the FrSky VD5M receiver on Arduino Uno and Due,
